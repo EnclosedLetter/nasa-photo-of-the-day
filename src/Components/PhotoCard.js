@@ -16,7 +16,16 @@ const PhotoCard = () => {
     .catch(error => console.log("Photo not found", error));
   }, []);
   console.log(apod)
-    return <img src={apod.url} alt = "pic of the day" />;
+    return <Date 
+    
+    title={apod.title}
+    // date=
+    // explanation=
+    // img=
+    // copyright=
+    
+    />
+    // <img src={apod.url} alt = "pic of the day" />;
 
     // <Date 
     //   title={apod.title}

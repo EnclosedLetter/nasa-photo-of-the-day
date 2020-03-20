@@ -1,13 +1,19 @@
 import React from "react";
 
-// const Date = props => {
-// <div> 
-
-// <h1>{props.title}</h1>
-
-// </div> 
-//     };
+const Date = props => {
+return (
+<div> 
     
-    export default Date;
+<h1>{props.title}</h1>
+<p></p>
+<img></img>
+<p></p>
+<footer></footer>
+
+</div>
+)
+};
+    
+export default Date;
   
     
